@@ -1,0 +1,21 @@
+{
+  "name": "taskflow-api",
+  "version": "1.0.0",
+  "description": "Yazılım ekipleri için görev takip REST API'si (Node.js + Express.js)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
